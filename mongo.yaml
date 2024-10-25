@@ -84,6 +84,5 @@ metadata:
   namespace: mongodb
 type: Opaque
 data:
-  mongo-root-username: bW9uZ29yb290
-  mongo-root-password: c2VjcmV0cGFzcw==
-
+  mongo-root-username: bW9uZ29yb290  # "mongoroot" base64 encoded
+  mongo-root-password: c2VjcmV0cGFzcw==  # "secretpass" base64 encoded
